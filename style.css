@@ -162,7 +162,7 @@ input::placeholder {
     top: 28px;
 }
 
-.user-perfil {
+.user-perfil a {
     padding: 18px 0 20px 30px;
     align-items: center;
     width: 330px;
@@ -183,6 +183,7 @@ input::placeholder {
     text-transform: uppercase;
     padding-right: 10px;
     padding-bottom: 11px;
+    color: var(--color-black);
 }
 
 .name span:last-child {
