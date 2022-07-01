@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Linkedin</title>
   </head>
+  <!-- ICONS -->
   <link rel="stylesheet" href="./assets/style.css" />
+  <!-- STYLES -->
+  <link rel="stylesheet" href="./style.css" />
   <body>
     <header>
       <div class="header-container">
@@ -16,33 +19,30 @@
           /></a>
         </div>
         <div class="container border-right">
-          <div class="icons border-right">
-            <div class="icon">
-              <a href="#"
-                ><span>feed</span><img src="./assets/svg/feed.svg" alt=""
-              /></a>
-            </div>
-            <div class="icon">
-              <a href="#"
-                ><span>Network</span><img src="./assets/svg/users.svg" alt=""
-              /></a>
-            </div>
-            <div class="icon">
-              <a href="#"
-                ><span>jobs</span><img src="./assets/svg/briefcase.svg" alt=""
-              /></a>
-            </div>
-            <div class="icon">
-              <a href="#"
-                ><span>chat</span><img src="./assets/svg/Vector.svg" alt=""
-              /></a>
-            </div>
-            <div class="icon">
-              <a href="#"
-                ><span>notices</span><img src="./assets/svg/bell.svg" alt=""
-              /></a>
-            </div>
-          </div>
+          <nav class="border-right">
+            <ul>
+              <li>
+                <a href=""><i class="icon-feed"></i>FEED</a>
+              </li>
+              <li>
+                <a href=""><i class="icon-users"></i>NETWORK</a>
+              </li>
+              <li>
+                <a href=""><i class="icon-briefcase"></i>JOBS</a>
+              </li>
+              <li>
+                <a href=""
+                  ><i class="icon-Vector"></i>CHAT
+                  <img
+                    src="./assets/img/count.png"
+                    alt="Contador de notificação"
+                /></a>
+              </li>
+              <li>
+                <a href=""><i class="icon-bell"></i>NOTICES</a>
+              </li>
+            </ul>
+          </nav>
           <div class="search border-right">
             <img src="./assets/svg/search.svg" alt="Icone de pesquisa" />
             <input type="text" placeholder="Search" />
@@ -68,7 +68,7 @@
           </div>
         </div>
         <div class="other">
-          <img src="./assets/svg/more-horizontal.svg" alt="" />
+          <a href="#"><i class="icon-more-horizontal"></i></a>
           <span>OTHER</span>
         </div>
       </div>
@@ -79,38 +79,42 @@
     <footer>
       <div class="container">
         <div class="logo">
-          <img src="" alt="" />
-          <span></span>
+          <img src="./assets/img/logo-linkedin.png" alt="Logo Linkedin" />
+          <span>Linked<span>In</span></span>
         </div>
         <div class="nav-bar">
-          <span></span>
-          <nav>
+          <span>Navigation</span>
+          <nav class="grid">
             <ul>
-              <li><a href=""></a></li>
-              <li><a href=""></a></li>
-              <li><a href=""></a></li>
-              <li><a href=""></a></li>
-              <li><a href=""></a></li>
-              <li><a href=""></a></li>
-              <li><a href=""></a></li>
-              <li><a href=""></a></li>
-              <li><a href=""></a></li>
-              <li><a href=""></a></li>
-              <li><a href=""></a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Advertising</a></li>
+              <li><a href="#">Small Business</a></li>
+              <li><a href="#">Talent Solutions</a></li>
+              <li><a href="#">Market Solutions</a></li>
+              <li><a href="#">Sales Solutions</a></li>
+              <li><a href="#">Safery Center</a></li>
+              <li><a href="#">Community Guidelines</a></li>
+              <li><a href="#">Privacy & Terms</a></li>
+              <li><a href="#">Mobile App</a></li>
             </ul>
           </nav>
         </div>
         <div class="fast-access">
           <span>Fast access</span>
-          <button><img src="" alt="" /></button>
-          <button><img src="" alt="" /></button>
+          <button class="primary-button">
+            QUESTIONS?<i class="icon-help-circle"></i>
+          </button>
+          <button class="primary-button">
+            SETTINGS<i class="icon-settings"></i>
+          </button>
         </div>
         <div class="language">
           <span>Language</span>
           <select name="" id="">
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
+            <option value="">English</option>
+            <option value="">Português</option>
+            <option value="">Alemão</option>
           </select>
         </div>
       </div>
