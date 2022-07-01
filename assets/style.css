@@ -9,8 +9,9 @@
     --color-bg-lightgray: #fcfdfd;
     --color-border-gray: #e7e7e7;
     --color-border-lightgray: #f4f4f4;
-    --color-green: #02B033;
-    --color-gray: #747474;
+    --color-green: #02B033
+    --color-bg-orange: linear-gradient(215.49deg, #FFB75E 5.4%, #ED8F03 93.45%);
+    --color-gray: #747474;    
 }
 
 * {
@@ -184,10 +185,4 @@ input::placeholder {
     font-size: 12px;
     font-weight: bold
 }
-
-
-
-
-
-
 
