@@ -1,14 +1,13 @@
 @font-face {
-    font-family: 'icomoon';
-    src: url('fonts/icomoon.eot?mhqyvp');
-    src: url('fonts/icomoon.eot?mhqyvp#iefix') format('embedded-opentype'),
-        url('fonts/icomoon.ttf?mhqyvp') format('truetype'),
-        url('fonts/icomoon.woff?mhqyvp') format('woff'),
-        url('fonts/icomoon.svg?mhqyvp#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?mhqyvp');
+  src:  url('fonts/icomoon.eot?mhqyvp#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?mhqyvp') format('truetype'),
+    url('fonts/icomoon.woff?mhqyvp') format('woff'),
+    url('fonts/icomoon.svg?mhqyvp#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
 }
 
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
