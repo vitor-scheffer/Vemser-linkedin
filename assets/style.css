@@ -1,114 +1,137 @@
-
 @font-face {
-  font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?mhqyvp');
-  src:  url('fonts/icomoon.eot?mhqyvp#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?mhqyvp') format('truetype'),
-    url('fonts/icomoon.woff?mhqyvp') format('woff'),
-    url('fonts/icomoon.svg?mhqyvp#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
-
-:root {
-    --color-blue: #0275B1;
-    --color-black: #181818;
-    --color-bg-blue: linear-gradient(180deg, #0077B5 0%, #0E6795 100%);
-    --color-bg-lightblue: #E9F0F8;
-    --color-bg-gray: #e5e5e5;
-    --color-bg-lightgray: #fcfdfd;
-    --color-border-gray: #e7e7e7;
-    --color-border-lightgray: #f4f4f4;
-    --color-green: #02B033
-    --color-bg-orange: linear-gradient(215.49deg, #FFB75E 5.4%, #ED8F03 93.45%);
-    --color-gray: #747474;    
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?mhqyvp');
+    src: url('fonts/icomoon.eot?mhqyvp#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?mhqyvp') format('truetype'),
+        url('fonts/icomoon.woff?mhqyvp') format('woff'),
+        url('fonts/icomoon.svg?mhqyvp#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
 
 }
 
-[class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: never;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+    :root {
+        --color-blue: #0275B1;
+        --color-black: #181818;
+        --color-bg-blue: linear-gradient(180deg, #0077B5 0%, #0E6795 100%);
+        --color-bg-lightblue: #E9F0F8;
+        --color-bg-gray: #e5e5e5;
+        --color-bg-lightgray: #fcfdfd;
+        --color-border-gray: #e7e7e7;
+        --color-border-lightgray: #f4f4f4;
+        --color-green: #02B033;
+         --color-bg-orange: linear-gradient(215.49deg, #FFB75E 5.4%, #ED8F03 93.45%);
+        --color-gray: #747474;
 
-.icon-upload:before {
-  content: "\e916";
-}
-.icon-arow-horiontal:before {
-  content: "\e915";
-}
-.icon-grampo:before {
-  content: "\e90e";
-}
-.icon-bell:before {
-  content: "\e900";
-}
-.icon-briefcase:before {
-  content: "\e901";
-}
-.icon-coment:before {
-  content: "\e902";
-}
-.icon-coment-blue:before {
-  content: "\e903";
-}
-.icon-download-cloud:before {
-  content: "\e904";
-}
-.icon-edit:before {
-  content: "\e905";
-}
-.icon-feed:before {
-  content: "\e906";
-}
-.icon-file-text:before {
-  content: "\e907";
-}
-.icon-help-circle:before {
-  content: "\e908";
-}
-.icon-image:before {
-  content: "\e909";
-}
-.icon-like:before {
-  content: "\e90a";
-}
-.icon-like-blue:before {
-  content: "\e90b";
-}
-.icon-more-horizontal-1:before {
-  content: "\e90c";
-}
-.icon-more-horizontal:before {
-  content: "\e90d";
-}
-.icon-send:before {
-  content: "\e90f";
-}
-.icon-settings:before {
-  content: "\e910";
-}
-.icon-share-2:before {
-  content: "\e911";
-}
-.icon-users:before {
-  content: "\e912";
-}
-.icon-Vector:before {
-  content: "\e913";
-}
-.icon-video:before {
-  content: "\e914";
-}
+    }
 
+    [class^="icon-"],
+    [class*=" icon-"] {
+        /* use !important to prevent issues with browser extensions that change fonts */
+        font-family: 'icomoon' !important;
+        speak: never;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .icon-upload:before {
+        content: "\e916";
+    }
+
+    .icon-arow-horiontal:before {
+        content: "\e915";
+    }
+
+    .icon-grampo:before {
+        content: "\e90e";
+    }
+
+    .icon-bell:before {
+        content: "\e900";
+    }
+
+    .icon-briefcase:before {
+        content: "\e901";
+    }
+
+    .icon-coment:before {
+        content: "\e902";
+    }
+
+    .icon-coment-blue:before {
+        content: "\e903";
+    }
+
+    .icon-download-cloud:before {
+        content: "\e904";
+    }
+
+    .icon-edit:before {
+        content: "\e905";
+    }
+
+    .icon-feed:before {
+        content: "\e906";
+    }
+
+    .icon-file-text:before {
+        content: "\e907";
+    }
+
+    .icon-help-circle:before {
+        content: "\e908";
+    }
+
+    .icon-image:before {
+        content: "\e909";
+    }
+
+    .icon-like:before {
+        content: "\e90a";
+    }
+
+    .icon-like-blue:before {
+        content: "\e90b";
+    }
+
+    .icon-more-horizontal-1:before {
+        content: "\e90c";
+    }
+
+    .icon-more-horizontal:before {
+        content: "\e90d";
+    }
+
+    .icon-send:before {
+        content: "\e90f";
+    }
+
+    .icon-settings:before {
+        content: "\e910";
+    }
+
+    .icon-share-2:before {
+        content: "\e911";
+    }
+
+    .icon-users:before {
+        content: "\e912";
+    }
+
+    .icon-Vector:before {
+        content: "\e913";
+    }
+
+    .icon-video:before {
+        content: "\e914";
+    }
