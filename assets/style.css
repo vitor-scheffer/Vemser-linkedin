@@ -516,6 +516,7 @@ input::placeholder {
 }
 
 /* Skills Card */
+
 .main-profile section:nth-child(5) {
     display: flex;
     flex-direction: column;
@@ -708,18 +709,6 @@ width: 290px;
 .stats div span:last-child {
     font-size: 14px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Footer  */
