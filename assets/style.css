@@ -812,6 +812,26 @@ input::placeholder {
     color: var(--color-blue);
 }
 
+.line::after,
+.line::before {
+    content: " ";
+    background-color: var(--color-border-gray);
+    display: block;
+    height: 1px;
+    width: 332px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line span {
+    color: var(--color-blue);
+    padding-right: 4px;
+}
+
 .profile-feed {
     display: flex;
     align-items: center;
@@ -825,6 +845,7 @@ input::placeholder {
 .profile-feed span {
     font-size: 10px;
 }
+
 
 .main-feed section:nth-child(3) {
     height: 285px;
