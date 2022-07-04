@@ -200,6 +200,10 @@ p {
     padding: 25px 0 20px 0px;
 }
 
+main img {
+    cursor: pointer;
+}
+
 /* ============ HEADER ============ */
 header {
     background-color: white;
@@ -704,6 +708,10 @@ input::placeholder {
     padding-left: 15px;
 }
 
+.aside section:nth-child(2) .stats .text-sm {
+    padding-top: 2px;
+}
+
 /* ============ INDEX-ASIDE - SECTION 3 ============ */
 .aside section:nth-child(3) {
     height: 338px;
@@ -745,10 +753,12 @@ input::placeholder {
 }
 
 .top-card i {
+    cursor: pointer;
     font-size: 24px;
 }
 
 .top-card span .names {
+    cursor: pointer;
     color: var(--color-blue);
 }
 
@@ -788,6 +798,7 @@ input::placeholder {
     color: var(--color-white);
     background-color: var(--color-blue);
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .line::after,
@@ -882,6 +893,11 @@ input::placeholder {
     padding: 0 20px;
 }
 
+.iOS:hover {
+    cursor: pointer;
+    opacity: 0.85;
+}
+
 .iOS div {
     display: flex;
 }
@@ -961,6 +977,7 @@ input::placeholder {
 .interactions i {
     padding-right: 8px;
     color: var(--color-blue);
+    cursor: pointer;
 }
 
 .main-feed section:nth-child(1) h4 {
@@ -1085,6 +1102,7 @@ input::placeholder {
     padding: 7px 12px;
     background-color: var(--color-bg-lightblue);
     font-size: 12px;
+    cursor: pointer;
 }
 
 .aside-feed section:nth-child(5) .stats {
