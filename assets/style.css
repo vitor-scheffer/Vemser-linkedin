@@ -101,6 +101,14 @@ p {
     cursor: pointer;
 }
 
+.text-sm {
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 15px;
+    padding-top: 5px;
+    height: 15px;
+}
+
 .border-right {
     border-right: 1px solid var(--color-border-lightgray);
 }
@@ -117,6 +125,17 @@ p {
     max-width: 850px;
     display: flex;
     flex-direction: column;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top: 1px solid var(--color-border-lightgray);
+    width: 230px;
+    height: 100%;
+    padding-bottom: 31px;
+    padding-top: 20px;
 }
 
 .aside,
@@ -157,7 +176,7 @@ p {
 
 .about-button:hover {
     height: 50px;
-    background-color: var(--color-blue);
+    background: linear-gradient(180deg, #0077B5 0%, #0E6795 100%);
     border-color: var(--color-blue);
     border-top-right-radius: 4px;
     border-top-left-radius: 4px;
@@ -175,7 +194,7 @@ p {
 
 .title-card {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
     width: 230px;
     padding: 25px 0 20px 0px;
@@ -192,6 +211,7 @@ header .container {
 
 header nav {
     display: flex;
+    justify-content: center;
     width: 484px;
 }
 
@@ -454,6 +474,10 @@ input::placeholder {
     gap: 15px;
 }
 
+.buttons-profile button:hover {
+    background: linear-gradient(180deg, #0077B5 0%, #0E6795 100%);
+}
+
 /* ============ INDEX - SECTION 2 ============ */
 .main-profile section:nth-child(3) {
     height: 200px;
@@ -500,17 +524,11 @@ input::placeholder {
     color: var(--color-black);
     font-weight: bold;
     padding-top: 15px;
-    padding-bottom: 5px;
-}
-
-.slide span:nth-child(3) {
-    font-size: 10px;
-    color: var(--color-black);
 }
 
 .title {
     display: flex;
-    align-items: flex-start;
+    align-items: baseline;
     font-size: 18px;
     gap: 15px;
 }
@@ -604,7 +622,7 @@ input::placeholder {
     gap: 5px;
 }
 
-.job-year div:last-child span:last-child {
+.main-profile section:nth-child(6) .job-year div:last-child span:last-child {
     color: var(--color-blue);
     font-weight: bold;
     padding-left: 10px;
@@ -613,12 +631,6 @@ input::placeholder {
 .job-year div:first-child span:first-child {
     font-weight: 500;
     padding-right: 10px;
-}
-
-.job-year div:first-child span:last-child,
-.job-year div:last-child span:first-child,
-.main-profile section:nth-child(7) span:last-child {
-    font-weight: 300;
 }
 
 /* ============ INDEX - SECTION 6 ============ */
@@ -646,15 +658,8 @@ input::placeholder {
     text-decoration: underline;
 }
 
-.stats {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border-top: 1px solid var(--color-border-lightgray);
-    width: 230px;
-    height: 100%;
-    padding-bottom: 31px;
-    padding-top: 20px;
+.stats .text-sm {
+    font-weight: 500;
 }
 
 .aside section:nth-child(1) .stats div {
@@ -670,8 +675,8 @@ input::placeholder {
     font-weight: bold;
 }
 
-.stats div span:last-child {
-    font-size: 14px;
+.aside section:nth-child(1) .stats div span:last-child {
+    font-size: 14px
 }
 
 /* ============ INDEX-ASIDE - SECTION 2 ============ */
@@ -699,12 +704,6 @@ input::placeholder {
     padding-left: 15px;
 }
 
-.stats div div span {
-    font-size: 10px;
-    color: var(--color-black);
-    padding-top: 5px;
-}
-
 /* ============ INDEX-ASIDE - SECTION 3 ============ */
 .aside section:nth-child(3) {
     height: 338px;
@@ -718,7 +717,8 @@ input::placeholder {
 
 .aside section:nth-child(3) .stats,
 .aside-feed section:nth-child(5) .stats {
-    padding-bottom: 25px;
+    padding-bottom: 0px;
+    gap: 15px;
 }
 
 .aside section:nth-child(3)>span,
@@ -748,11 +748,6 @@ input::placeholder {
     font-size: 24px;
 }
 
-.top-card span {
-    font-size: 10px;
-    color: var(--color-black);
-}
-
 .top-card span .names {
     color: var(--color-blue);
 }
@@ -778,12 +773,12 @@ input::placeholder {
 
 .post div {
     width: 200px;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .post div i {
+    display: flex;
+    justify-content: center;
     width: 32px;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -831,16 +826,16 @@ input::placeholder {
     margin-right: 15px;
 }
 
+.profile-feed span {
+    font-weight: 500;
+}
+
 .posted p {
     height: 63px;
     background: linear-gradient(180deg, #181818 0%, rgba(24, 24, 24, 0) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-}
-
-.profile-feed span {
-    font-size: 10px;
 }
 
 .posted,
@@ -897,11 +892,6 @@ input::placeholder {
     padding-left: 15px;
 }
 
-.iOS div div:last-child span {
-    font-size: 10px;
-    color: var(--color-black);
-    margin-top: 5px;
-}
 .icon-download-cloud {
     font-size: 24px;
     color: var(--color-blue);
@@ -965,6 +955,7 @@ input::placeholder {
 
 .interactions span {
     font-size: 12px;
+    font-weight: bold;
 }
 
 .interactions i {
@@ -1013,10 +1004,6 @@ input::placeholder {
     padding-top: 20px;
 }
 
-.aside-feed section:nth-child(3)>div:first-child {
-    height: 11px;
-}
-
 .aside-feed section:nth-child(3) .stats div:last-child {
     margin: 0;
 }
@@ -1030,8 +1017,16 @@ input::placeholder {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
+
+.aside-feed section:nth-child(2) button {
+    width: 230px;
+}
+
+.aside-feed section:nth-child(2) button:hover {
+    background: linear-gradient(180deg, #0077B5 0%, #0E6795 100%); 
+}
+
 
 .aside-feed section:nth-child(1) {
     height: 280px;
@@ -1058,6 +1053,10 @@ input::placeholder {
     align-items: center;
     justify-content: center;
     margin-top: 66px;
+}
+
+.profile-aside img {
+    width: 12px;
 }
 
 .profile-aside p {
@@ -1088,6 +1087,10 @@ input::placeholder {
     font-size: 12px;
 }
 
+.aside-feed section:nth-child(5) .stats {
+    padding-bottom: 26px;
+}
+
 /* ============ FOOTER ============ */
 footer {
     border-top: 1px solid var(--color-border-gray);
@@ -1103,6 +1106,7 @@ footer .container .logo {
 }
 
 footer .container .logo span {
+    color: var(--color-black);
     padding-top: 5px;
     font-weight: bold;
     font-size: 14px;
@@ -1117,7 +1121,7 @@ footer .nav-bar {
     padding-right: 65px;
 }
 
-footer .nav-bar h4 {
+footer h4 {
     text-transform: capitalize;
 }
 
