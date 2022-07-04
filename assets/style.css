@@ -163,6 +163,14 @@ p {
     border-bottom: 0px;
 }
 
+.about-button:first-child {
+    border-top-left-radius: 4px;
+}
+
+.about-button:last-child {
+    border-top-right-radius: 4px;
+}
+
 .about-button a {
     color: var(--color-black);
     font-weight: bold;
@@ -345,6 +353,7 @@ input::placeholder {
 
 .views span:nth-child(2) {
     color: var(--color-green);
+    font-weight: bold;
     padding-right: 2px;
 }
 
